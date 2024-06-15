@@ -1,0 +1,8 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  g_team.c
+  g_main.c
+  Generating Code...
+D:\Downloads\baseq3a-master\code\game\g_main.c(1544,2): warning C4013: 'ShuffleTeams' undefined; assuming extern returning int
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\game.dll) does not match the Linker's OutputFile property value (D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\qagamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (qagamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  game.vcxproj -> D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\game.dll

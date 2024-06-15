@@ -1,0 +1,37 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  q_shared.c
+  q_math.c
+  bg_slidemove.c
+  bg_pmove.c
+  bg_misc.c
+  bg_lib.c
+D:\Downloads\baseq3a-master\code\game\bg_lib.c(172,6): warning C4018: '<': signed/unsigned mismatch
+D:\Downloads\baseq3a-master\code\game\bg_lib.c(174,20): warning C4018: '>': signed/unsigned mismatch
+D:\Downloads\baseq3a-master\code\game\bg_lib.c(176,20): warning C4018: '>': signed/unsigned mismatch
+  cg_weapons.c
+  cg_view.c
+  cg_syscalls.c
+  cg_snapshot.c
+  cg_servercmds.c
+  cg_scoreboard.c
+  cg_predict.c
+  cg_playerstate.c
+  cg_players.c
+  cg_marks.c
+  cg_main.c
+  cg_localents.c
+  cg_info.c
+  cg_event.c
+  Generating Code...
+  Compiling...
+  cg_ents.c
+  cg_effects.c
+  cg_drawtools.c
+  cg_draw.c
+  cg_consolecmds.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\cgame.dll) does not match the Linker's OutputFile property value (D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\cgamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(cgame) does not match the Linker's OutputFile property value (cgamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+cg_consolecmds.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library .\Win32\Debug\cgame.lib and object .\Win32\Debug\cgame.exp
+  cgame.vcxproj -> D:\Downloads\baseq3a-master\build\win32-msvc\Win32\Debug\cgame.dll
